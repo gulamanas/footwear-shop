@@ -1,0 +1,68 @@
+:root {
+  --green-light: #4CAF50;
+  --green-dark: #2E7D32;
+  --green-bg-gradient: linear-gradient(135deg, #5EA98A, #8BC89E);
+  --green-gradient: linear-gradient(135deg, #11764F, #68BA71);
+  /* --green-gradient: linear-gradient(135deg, var(--green-light), var(--green-dark)); */
+  --text-light: #f5f5f5;
+  --text-dark: #333;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --light-bg: #d0f0d7;
+  --primary-btn: #131D4F;
+  --primary-btn-hover: #26326c;
+  --white: #fff;
+  --black: #000;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  /* background: var(--green-gradient); */
+  /* color: var(--text-light); */
+  max-height: 100vh;
+}
+
+/* .container {
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  color: var(--text-dark);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  margin: 2rem 0;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.button {
+  background: var(--green-gradient);
+  color: var(--text-light);
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+} */

@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 5rem; */
+    padding: 1rem 2rem;
+    background: var(--green-gradient);
+    color: var(--text-light);
+    box-shadow: var(--shadow);
+}
+
+.burger_icon {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.line {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background: var(--text-light);
+}
+
+.brand_name {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
