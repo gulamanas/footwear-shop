@@ -1,5 +1,5 @@
+import PrimaryButtonLink from '../../components/PrimaryButtonLink';
 import './HomePage.css';
-import { Link } from "react-router-dom"
 
 const HomePage = () => {
     return (
@@ -14,14 +14,14 @@ const HomePage = () => {
             <div className="content">
                 <p>LISTS</p>
                 <div className="link_items">
-                    <Link to="/stocks">Stocks</Link>
-                    <Link to="/customers">Customers</Link>
+                    <PrimaryButtonLink title='Stocks' link='/stocks' />
+                    <PrimaryButtonLink title='Customers' link='/customers' />
                 </div>
 
                 <p>Add</p>
                 <div className="link_items">
-                    <Link to="/add-stock">Add Stock</Link>
-                    <Link to="/add-customer">Add Customer</Link>
+                    <PrimaryButtonLink title='Add Stock' link='/add-stock' />
+                    <PrimaryButtonLink title='Add Customer' link='/add-customer' />
                 </div>
             </div>
         </main>

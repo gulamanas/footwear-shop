@@ -8,7 +8,6 @@
 
 .upper_part {
     width: 100%;
-    /* height: 20vh; */
     background: var(--green-gradient);
     border-radius: 2rem 2rem 0 0;
     padding: 1rem;
@@ -19,12 +18,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 100%; */
 }
 
 .lower_part {
@@ -41,36 +34,34 @@
 .item_container {
     width: 95%;
     height: 70vh;
-    background: var(--text-light);
-    border-radius: 1rem;
-    box-shadow: var(--shadow);
-    overflow: scroll;
-    overflow-x: hidden;
+    /* background: var(--text-light); */
+    /* border-radius: 1rem; */
+    /* box-shadow: var(--shadow); */
+    /* overflow: scroll; */
+    overflow: hidden;
 }
 
-.item_container::-webkit-scrollbar {
+.table_container::-webkit-scrollbar {
     width: 8px;
-    /* width of vertical scrollbar */
     height: 8px;
-    /* height of horizontal scrollbar */
 }
 
 /* Scrollbar Thumb (the draggable part) */
-.item_container::-webkit-scrollbar-thumb {
+.table_container::-webkit-scrollbar-thumb {
     background: var(--green-gradient);
     /* or any color you like */
     border-radius: 10px;
 }
 
 /* Scrollbar Track background (optional) */
-.item_container::-webkit-scrollbar-track {
+.table_container::-webkit-scrollbar-track {
     background: #f1f1f1;
     /* light grey background */
     border-radius: 10px;
 }
 
 /* Scrollbar Corner (where vertical and horizontal scrollbar meet) */
-.item_container::-webkit-scrollbar-corner {
+.table_container::-webkit-scrollbar-corner {
     background: transparent;
 }
 
@@ -78,8 +69,10 @@
     padding: 2rem;
 }
 
-.card {
-    padding: 1rem;
+.table_container {
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
 }
 
 .form input,
@@ -103,10 +96,9 @@
 
 table {
     width: 100%;
+    min-width: 850px;
     border-collapse: collapse;
-    margin-top: 1rem;
-    border: 1px solid #d6d6d6;
-    position: relative;
+    border: 1px solid #ad1414;
 }
 
 th {
@@ -116,7 +108,7 @@ th {
     text-align: left;
     position: sticky;
     top: 0;
-    /* border: 1px solid #d6d6d6; */
+    z-index: 10;
 }
 
 th,
@@ -128,4 +120,9 @@ td {
 
 tr:nth-child(even) {
     background-color: #b7ceaa;
+}
+
+/* Form Styling */
+.card {
+    padding: 1rem;
 }

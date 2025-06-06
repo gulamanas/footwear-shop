@@ -16,7 +16,7 @@ const StockList = () => {
       </div>
       <div className="lower_part">
         <div className="item_container">
-          <div className="card">
+          <div className="table_container">
             <table>
               <thead>
                 <tr>
@@ -37,7 +37,7 @@ const StockList = () => {
                     <td>{stock.dateAdded}</td>
                   </tr>
                 ))}
-                {mockStockData.map(stock => (
+                {/* {mockStockData.map(stock => (
                   <tr key={stock.id}>
                     <td>{stock.item}</td>
                     <td>{stock.hsnCode}</td>
@@ -45,11 +45,10 @@ const StockList = () => {
                     <td>{stock.quantity}</td>
                     <td>{stock.dateAdded}</td>
                   </tr>
-                ))}
+                ))} */}
               </tbody>
             </table>
           </div>
-
         </div>
       </div>
     </div>
