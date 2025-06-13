@@ -7,7 +7,7 @@ const CustomerList = () => {
       <div className="upper_part">
         <h1>New Agra Footwear</h1>
         <div className="text_container">
-          <h2>Stocks</h2>
+          <h2>Customers</h2>
           <PrimaryButtonLink title="Add +" link="/add-customer" />
         </div>
 
